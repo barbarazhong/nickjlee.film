@@ -1,0 +1,9 @@
+.Navbar {
+    background-color: white;
+    min-height: 10vh;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    position: sticky;
+    top: 0;
+  }

@@ -6,7 +6,7 @@ import React from 'react';
 function App() {
     return(
       <div className='App'>
-        <BrandNavBar />
+        <BrandNavBar className="App-header"/>
         <Images />
       </div>
     )

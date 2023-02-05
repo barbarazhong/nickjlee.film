@@ -1,10 +1,11 @@
+import './BrandNavBar.css';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 
 function BrandNavBar() {
   return (
     <>
-      <Navbar sticky="top">
+      <Navbar className='Navbar'>
         <Container>
           <Navbar.Brand>Nicolas Johannes Lee</Navbar.Brand>
         </Container>
