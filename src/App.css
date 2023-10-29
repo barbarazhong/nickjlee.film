@@ -6,14 +6,15 @@
   width: 75%;
 }
 
-.App-header {
-  background-color: white;
-  min-height: 10vh;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  position: sticky;
-  top: 0;
+.LinkBox-img {
+  width: 50%;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns:
+  minmax(100px, max-content)
+  repeat(auto-fill, 200px) 20%;
 }
 
 .App-link {
