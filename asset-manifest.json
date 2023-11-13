@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/njl.film/static/css/main.42abb609.css",
-    "main.js": "/njl.film/static/js/main.da51f03a.js",
+    "main.css": "/njl.film/static/css/main.32271b6a.css",
+    "main.js": "/njl.film/static/js/main.189d2b08.js",
     "static/js/787.93e0dd2e.chunk.js": "/njl.film/static/js/787.93e0dd2e.chunk.js",
+    "static/media/whereisblueboy.jpeg": "/njl.film/static/media/whereisblueboy.a2676b577e83c8b25a4d.jpeg",
     "static/media/vacation.jpeg": "/njl.film/static/media/vacation.140045a168a461949896.jpeg",
     "static/media/robbert_eggers.jpeg": "/njl.film/static/media/robbert_eggers.7db7c74a8e8bd8e74470.jpeg",
     "static/media/in_film_cooking_and_jazz.jpeg": "/njl.film/static/media/in_film_cooking_and_jazz.ca19fbda13817d1fc292.jpeg",
     "index.html": "/njl.film/index.html",
-    "main.42abb609.css.map": "/njl.film/static/css/main.42abb609.css.map",
-    "main.da51f03a.js.map": "/njl.film/static/js/main.da51f03a.js.map",
+    "main.32271b6a.css.map": "/njl.film/static/css/main.32271b6a.css.map",
+    "main.189d2b08.js.map": "/njl.film/static/js/main.189d2b08.js.map",
     "787.93e0dd2e.chunk.js.map": "/njl.film/static/js/787.93e0dd2e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.42abb609.css",
-    "static/js/main.da51f03a.js"
+    "static/css/main.32271b6a.css",
+    "static/js/main.189d2b08.js"
   ]
 }
