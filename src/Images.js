@@ -4,23 +4,29 @@ import React from 'react';
 
 export const videos = [{
   id: 0,
-  name: 'JAZZ & COOKING | in film',
-  summary: 'I love cooking. I love jazz. Let\'s see what happens when we combine them..',
-  youtube_link: 'https://www.youtube.com/watch?v=Cutzq2vX5HM&t=1s',
-  imageId: 'in_film_cooking_and_jazz.jpeg'
+  name: 'Blue Boy',
+  summary: 'Where is Blue Boy?',
+  link: 'https://www.instagram.com/blueboy_film/',
+  imageId: 'whereisblueboy.jpeg'
 }, {
   id: 1,
   name: 'Robert Eggers • OEUVRE',
   summary: 'We are starting out strong with Robert Eggers, who in my opinion has one of the strongest visual and phonetic language working today.',
-  youtube_link: 'https://www.youtube.com/watch?v=JgPJNBo-Llg&t=98s',
+  link: 'https://www.youtube.com/watch?v=JgPJNBo-Llg&t=98s',
   imageId: 'robbert_eggers.jpeg'
 }, {
   id: 2,
   name: 'Vacation (Aftersun)',
   summary: 'An homage to my favorite film of 2022. A beautiful, tender look at a father and daughter on vacation.',
-  youtube_link: 'https://www.youtube.com/watch?v=mZGEVzyAyNs&t=14s',
+  link: 'https://www.youtube.com/watch?v=mZGEVzyAyNs&t=14s',
   imageId: 'vacation.jpeg'
-}, 
+}, {
+  id: 3,
+  name: 'JAZZ & COOKING | in film',
+  summary: 'I love cooking. I love jazz. Let\'s see what happens when we combine them..',
+  link: 'https://www.youtube.com/watch?v=Cutzq2vX5HM&t=1s',
+  imageId: 'in_film_cooking_and_jazz.jpeg'
+},
 ];
 
 function Image(props) {
@@ -28,8 +34,9 @@ function Image(props) {
     <div className='img_container'>  
       <img className="image" key={props.index} src={props.image} alt="info"></img> 
       <div className='middle'> 
-        <div className='text'>{props.name}</div>
+        {/* <div className='text'>{props.name}</div> */}
         <div className='text'>{props.summary}</div>
+        <button class="button button1">{props.name}</button>
       </div> 
     </div> 
   );
