@@ -1,7 +1,7 @@
 {
   "name": "nickjlee.film",
   "version": "0.1.0",
-  "homepage": "https://barbarazhong.github.io/njl.film",
+  "homepage": "https://njl.film",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
