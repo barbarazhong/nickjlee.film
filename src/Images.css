@@ -38,21 +38,23 @@
 }
 
 .text {
-  background-color: black;
+  background-color: transparent;
   color: white;
-  font-size: 16px;
-  padding: 16px 32px;
+  font-size: 3.2vw;
+  /* padding: 3.2vw 6.4vw; */
 }
 
 .button {
   border: none;
   color: black;
-  padding: 16px 32px;
+  background-color: #266856;
+  padding: 2vw 4vw;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 3.2vw;
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
+  border-radius: 4px;
 }

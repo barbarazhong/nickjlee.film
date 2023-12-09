@@ -29,6 +29,10 @@ export const videos = [{
 },
 ];
 
+const openInNewTab = (url) => {
+  window.open(url, "_blank", "noreferrer");
+};
+
 function Image(props) {
   return (
     <div className='img_container'>  
@@ -36,7 +40,12 @@ function Image(props) {
       <div className='middle'> 
         {/* <div className='text'>{props.name}</div> */}
         <div className='text'>{props.summary}</div>
-        <button class="button button1">{props.name}</button>
+        <button class="button button1"
+        role="link"
+        onClick={() => openInNewTab(props.link)}
+      >
+      {props.name}
+        </button>
       </div> 
     </div> 
   );
@@ -63,7 +72,7 @@ class Images extends React.Component {
       <div className='full_images'>
         {
           videos.map(
-            (video) =>  <Image index={video.id} image={images[video.imageId]} summary={video.summary} name={video.name} />
+            (video) =>  <Image index={video.id} image={images[video.imageId]} summary={video.summary} name={video.name} link={video.link} />
           )
         }
       </div>
