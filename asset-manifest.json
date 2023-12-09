@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.32271b6a.css",
-    "main.js": "/static/js/main.07566a39.js",
+    "main.css": "/static/css/main.05abcb21.css",
+    "main.js": "/static/js/main.f8a5142a.js",
     "static/js/787.93e0dd2e.chunk.js": "/static/js/787.93e0dd2e.chunk.js",
     "static/media/whereisblueboy.jpeg": "/static/media/whereisblueboy.a2676b577e83c8b25a4d.jpeg",
     "static/media/vacation.jpeg": "/static/media/vacation.140045a168a461949896.jpeg",
     "static/media/robbert_eggers.jpeg": "/static/media/robbert_eggers.7db7c74a8e8bd8e74470.jpeg",
     "static/media/in_film_cooking_and_jazz.jpeg": "/static/media/in_film_cooking_and_jazz.ca19fbda13817d1fc292.jpeg",
     "index.html": "/index.html",
-    "main.32271b6a.css.map": "/static/css/main.32271b6a.css.map",
-    "main.07566a39.js.map": "/static/js/main.07566a39.js.map",
+    "main.05abcb21.css.map": "/static/css/main.05abcb21.css.map",
+    "main.f8a5142a.js.map": "/static/js/main.f8a5142a.js.map",
     "787.93e0dd2e.chunk.js.map": "/static/js/787.93e0dd2e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.32271b6a.css",
-    "static/js/main.07566a39.js"
+    "static/css/main.05abcb21.css",
+    "static/js/main.f8a5142a.js"
   ]
 }
