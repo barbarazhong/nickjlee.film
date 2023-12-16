@@ -4,29 +4,35 @@ import React from 'react';
 
 export const videos = [{
   id: 0,
+  name: '@nickjlee15_',
+  summary: 'Hi! I\'m Nicolas Johannes Lee',
+  link: 'https://www.instagram.com/nickjlee15_/',
+  imageId: 'njl.jpeg'
+},{
+  id: 1,
   name: 'Blue Boy',
   summary: 'Where is Blue Boy?',
   link: 'https://www.instagram.com/blueboy_film/',
   imageId: 'whereisblueboy.jpeg'
 }, {
-  id: 1,
-  name: 'Robert Eggers • OEUVRE',
-  summary: 'We are starting out strong with Robert Eggers, who in my opinion has one of the strongest visual and phonetic language working today.',
-  link: 'https://www.youtube.com/watch?v=JgPJNBo-Llg&t=98s',
-  imageId: 'robbert_eggers.jpeg'
-}, {
   id: 2,
   name: 'Vacation (Aftersun)',
-  summary: 'An homage to my favorite film of 2022. A beautiful, tender look at a father and daughter on vacation.',
+  summary: '2:25 mins - A beautiful, tender look at a father and daughter on vacation.',
   link: 'https://www.youtube.com/watch?v=mZGEVzyAyNs&t=14s',
   imageId: 'vacation.jpeg'
-}, {
+},{
   id: 3,
   name: 'JAZZ & COOKING | in film',
-  summary: 'I love cooking. I love jazz. Let\'s see what happens when we combine them..',
+  summary: '2:50 mins - I love cooking. I love jazz.',
   link: 'https://www.youtube.com/watch?v=Cutzq2vX5HM&t=1s',
   imageId: 'in_film_cooking_and_jazz.jpeg'
-},
+},{
+  id: 4,
+  name: 'Robert Eggers • OEUVRE',
+  summary: '2:38 mins - An homage to Rogger Eggers.',
+  link: 'https://www.youtube.com/watch?v=JgPJNBo-Llg&t=98s',
+  imageId: 'robbert_eggers.jpeg'
+},  
 ];
 
 const openInNewTab = (url) => {

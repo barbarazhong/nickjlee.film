@@ -40,19 +40,19 @@
 .text {
   background-color: transparent;
   color: white;
-  font-size: 3.2vw;
+  font-size: 3vw;
   /* padding: 3.2vw 6.4vw; */
 }
 
 .button {
   border: none;
-  color: black;
+  color: white;
   background-color: #266856;
   padding: 2vw 4vw;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 3.2vw;
+  font-size: 2vw;
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
