@@ -10,7 +10,7 @@ export const videos = [{
   imageId: 'njl.jpeg'
 },{
   id: 1,
-  name: 'Blue Boy',
+  name: '@blueboy_film',
   summary: 'Where is Blue Boy?',
   link: 'https://www.instagram.com/blueboy_film/',
   imageId: 'whereisblueboy.jpeg'
