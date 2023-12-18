@@ -11,25 +11,25 @@ export const videos = [{
 },{
   id: 1,
   name: '@blueboy_film',
-  summary: 'Where is Blue Boy?',
+  summary: 'My upcoming short film.',
   link: 'https://www.instagram.com/blueboy_film/',
   imageId: 'whereisblueboy.jpeg'
 }, {
   id: 2,
   name: 'Vacation (Aftersun)',
-  summary: '2:25 mins - A beautiful, tender look at a father and daughter on vacation.',
+  summary: 'A beautiful, tender look at a father and daughter on vacation.',
   link: 'https://www.youtube.com/watch?v=mZGEVzyAyNs&t=14s',
   imageId: 'vacation.jpeg'
 },{
   id: 3,
   name: 'JAZZ & COOKING | in film',
-  summary: '2:50 mins - I love cooking. I love jazz.',
+  summary: 'I love cooking. I love jazz.',
   link: 'https://www.youtube.com/watch?v=Cutzq2vX5HM&t=1s',
   imageId: 'in_film_cooking_and_jazz.jpeg'
 },{
   id: 4,
   name: 'Robert Eggers • OEUVRE',
-  summary: '2:38 mins - An homage to Rogger Eggers.',
+  summary: 'An homage to Rogger Eggers.',
   link: 'https://www.youtube.com/watch?v=JgPJNBo-Llg&t=98s',
   imageId: 'robbert_eggers.jpeg'
 },  

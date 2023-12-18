@@ -41,10 +41,12 @@
   background-color: transparent;
   color: white;
   font-size: 3vw;
-  /* padding: 3.2vw 6.4vw; */
+  padding: 1vw 1vw;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .button {
+  font-family: Georgia, 'Times New Roman', Times, serif;
   border: none;
   color: white;
   background-color: #266856;
