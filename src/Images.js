@@ -31,7 +31,7 @@ export const videos = [{
   name: 'Robert Eggers • OEUVRE',
   summary: 'An homage to Rogger Eggers.',
   link: 'https://www.youtube.com/watch?v=JgPJNBo-Llg&t=98s',
-  imageId: 'robbert_eggers.jpeg'
+  imageId: 'robert_eggers.jpeg'
 },  
 ];
 
