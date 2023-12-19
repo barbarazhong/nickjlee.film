@@ -7,31 +7,36 @@ export const videos = [{
   name: '@nickjlee15_',
   summary: 'Hi! I\'m Nicolas Johannes Lee',
   link: 'https://www.instagram.com/nickjlee15_/',
-  imageId: 'njl.jpeg'
+  imageId: 'njl.jpeg',
+  squareImageId: 'njl_square.jpeg'
 },{
   id: 1,
   name: '@blueboy_film',
   summary: 'My upcoming short film.',
   link: 'https://www.instagram.com/blueboy_film/',
-  imageId: 'whereisblueboy.jpeg'
+  imageId: 'whereisblueboy.jpeg',
+  squareImageId: 'whereisblueboy_square.jpeg'
 }, {
   id: 2,
   name: 'Vacation (Aftersun)',
   summary: 'A beautiful, tender look at a father and daughter on vacation.',
   link: 'https://www.youtube.com/watch?v=mZGEVzyAyNs&t=14s',
-  imageId: 'vacation.jpeg'
+  imageId: 'vacation.jpeg',
+  squareImageId: 'vacation_square.jpeg'
 },{
   id: 3,
   name: 'JAZZ & COOKING | in film',
   summary: 'I love cooking. I love jazz.',
   link: 'https://www.youtube.com/watch?v=Cutzq2vX5HM&t=1s',
-  imageId: 'in_film_cooking_and_jazz.jpeg'
+  imageId: 'in_film_cooking_and_jazz.jpeg',
+  squareImageId: 'in_film_cooking_and_jazz_square.jpeg'
 },{
   id: 4,
   name: 'Robert Eggers • OEUVRE',
   summary: 'An homage to Rogger Eggers.',
   link: 'https://www.youtube.com/watch?v=JgPJNBo-Llg&t=98s',
-  imageId: 'robert_eggers.jpeg'
+  imageId: 'robert_eggers.jpeg',
+  squareImageId: 'robert_eggers_square.jpeg'
 },  
 ];
 
@@ -42,7 +47,10 @@ const openInNewTab = (url) => {
 function Image(props) {
   return (
     <div className='img_container'>  
-      <img className="image" key={props.index} src={props.image} alt="info"></img> 
+      <picture>
+        <source media="(max-width:800px)" srcset={props.image_square}></source>
+        <img className="image" key={props.index} src={props.image} alt="info"></img> 
+      </picture>
       <div className='middle'> 
         {/* <div className='text'>{props.name}</div> */}
         <div className='text'>{props.summary}</div>
@@ -78,7 +86,7 @@ class Images extends React.Component {
       <div className='full_images'>
         {
           videos.map(
-            (video) =>  <Image index={video.id} image={images[video.imageId]} summary={video.summary} name={video.name} link={video.link} />
+            (video) =>  <Image index={video.id} image={images[video.imageId]} image_square={images[video.squareImageId]} summary={video.summary} name={video.name} link={video.link} />
           )
         }
       </div>
