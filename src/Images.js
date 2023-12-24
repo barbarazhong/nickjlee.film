@@ -4,9 +4,9 @@ import React from 'react';
 
 export const videos = [{
   id: 0,
-  name: '@nickjlee15_',
+  name: '@nickjlee_',
   summary: 'Hi! I\'m Nicolas Johannes Lee',
-  link: 'https://www.instagram.com/nickjlee15_/',
+  link: 'https://www.instagram.com/nickjlee_/',
   imageId: 'njl.jpeg',
   squareImageId: 'njl_square.jpeg'
 },{
