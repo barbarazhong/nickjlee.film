@@ -52,7 +52,6 @@ function Image(props) {
         <img className="image" key={props.index} src={props.image} alt="info"></img> 
       </picture>
       <div className='middle'> 
-        {/* <div className='text'>{props.name}</div> */}
         <div className='text'>{props.summary}</div>
         <button class="button button1"
         role="link"
@@ -77,9 +76,6 @@ class Images extends React.Component {
   importAll(r) {
     return r.keys().map(r);
   }
-  // componentWillMount() {
-  //   listOfImages = this.importAll(require.context('./assets/', false, /\.(png|jpe?g|svg)$/));
-  // }
   
   render() {
     return(
