@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.30840e18.css",
-    "main.js": "/static/js/main.4dc73a5e.js",
+    "main.css": "/static/css/main.414e55e6.css",
+    "main.js": "/static/js/main.0aedf6a8.js",
     "static/js/787.93e0dd2e.chunk.js": "/static/js/787.93e0dd2e.chunk.js",
     "static/media/vacation_square.jpeg": "/static/media/vacation_square.021064f83adf1ea93d88.jpeg",
     "static/media/njl.jpeg": "/static/media/njl.3f2cf92b7f4b81c5ed36.jpeg",
@@ -13,13 +13,18 @@
     "static/media/robert_eggers.jpeg": "/static/media/robert_eggers.7db7c74a8e8bd8e74470.jpeg",
     "static/media/in_film_cooking_and_jazz_square.jpeg": "/static/media/in_film_cooking_and_jazz_square.5d9b4785f927b62d00b6.jpeg",
     "static/media/in_film_cooking_and_jazz.jpeg": "/static/media/in_film_cooking_and_jazz.ca19fbda13817d1fc292.jpeg",
+    "static/media/vacation_square_main.jpeg": "/static/media/vacation_square_main.2cdfb52dad5f23c546a7.jpeg",
+    "static/media/whereisblueboy_square_main.jpeg": "/static/media/whereisblueboy_square_main.4b3d501fcd7220c195b9.jpeg",
+    "static/media/robert_eggers_square_main.jpeg": "/static/media/robert_eggers_square_main.1bd518bbe01ab323844f.jpeg",
+    "static/media/in_film_cooking_and_jazz_square_main.jpeg": "/static/media/in_film_cooking_and_jazz_square_main.3811cc34aba255c15c07.jpeg",
+    "static/media/njl_square_main.jpeg": "/static/media/njl_square_main.55852685c327b0f97773.jpeg",
     "index.html": "/index.html",
-    "main.30840e18.css.map": "/static/css/main.30840e18.css.map",
-    "main.4dc73a5e.js.map": "/static/js/main.4dc73a5e.js.map",
+    "main.414e55e6.css.map": "/static/css/main.414e55e6.css.map",
+    "main.0aedf6a8.js.map": "/static/js/main.0aedf6a8.js.map",
     "787.93e0dd2e.chunk.js.map": "/static/js/787.93e0dd2e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.30840e18.css",
-    "static/js/main.4dc73a5e.js"
+    "static/css/main.414e55e6.css",
+    "static/js/main.0aedf6a8.js"
   ]
 }
