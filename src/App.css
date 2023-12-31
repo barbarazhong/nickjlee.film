@@ -1,6 +1,7 @@
-.App {
-  text-align: center;
-}
+/* .App {
+  display: absolute;
+  flex-direction: column;
+} */
 
 body {
   background-color: black;
@@ -10,8 +11,40 @@ body {
   width: 75%;
 }
 
-.LinkBox-img {
-  width: 50%;
+
+.socials {
+  /* position: relative;
+  display: inline-block; */
+  float: right;
+  top: 90%;
+  left: 50%;
+  transform: translate(-75%, -75%);
+  position: fixed;
+}
+
+.fa {
+  padding: 3px;
+  font-size: 30px;
+  /* width: 50px; */
+  text-align: center;
+  text-decoration: none;
+  margin: 1px 1px;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+  font-size: medium;
+}
+
+.fa-youtube-play {
+  background: #bb0000;
+  color: white;
+  font-size: medium;
+}
+
+.fa:hover {
+  opacity: 0.7;
 }
 
 .wrapper {
