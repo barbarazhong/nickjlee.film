@@ -7,35 +7,35 @@ export const videos = [{
   name: '@nickjlee_',
   summary: 'Hi! I\'m Nicolas Johannes Lee',
   link: 'https://www.instagram.com/nickjlee_/',
-  imageId: 'njl.jpeg',
+  imageId: 'njl_square_main.jpeg',
   squareImageId: 'njl_square.jpeg'
 },{
   id: 1,
   name: '@blueboy_film',
   summary: 'My upcoming short film.',
   link: 'https://www.instagram.com/blueboy_film/',
-  imageId: 'whereisblueboy.jpeg',
+  imageId: 'whereisblueboy_square_main.jpeg',
   squareImageId: 'whereisblueboy_square.jpeg'
 }, {
   id: 2,
   name: 'Vacation (Aftersun)',
   summary: 'A beautiful, tender look at a father and daughter on vacation.',
   link: 'https://www.youtube.com/watch?v=mZGEVzyAyNs&t=14s',
-  imageId: 'vacation.jpeg',
+  imageId: 'vacation_square_main.jpeg',
   squareImageId: 'vacation_square.jpeg'
 },{
   id: 3,
   name: 'JAZZ & COOKING | in film',
   summary: 'I love cooking. I love jazz.',
   link: 'https://www.youtube.com/watch?v=Cutzq2vX5HM&t=1s',
-  imageId: 'in_film_cooking_and_jazz.jpeg',
+  imageId: 'in_film_cooking_and_jazz_square_main.jpeg',
   squareImageId: 'in_film_cooking_and_jazz_square.jpeg'
 },{
   id: 4,
   name: 'Robert Eggers • OEUVRE',
   summary: 'An homage to Rogger Eggers.',
   link: 'https://www.youtube.com/watch?v=JgPJNBo-Llg&t=98s',
-  imageId: 'robert_eggers.jpeg',
+  imageId: 'robert_eggers_square_main.jpeg',
   squareImageId: 'robert_eggers_square.jpeg'
 },  
 ];
@@ -49,7 +49,7 @@ function Image(props) {
     <div className='img_container'>  
       <picture>
         <source media="(max-width:800px)" srcset={props.image_square}></source>
-        <img className="image" key={props.index} src={props.image} alt="info"></img> 
+        <img className="image" key={props.index} src={props.image} alt={props.name}></img> 
       </picture>
       <div className='middle'> 
         <div className='text'>{props.summary}</div>

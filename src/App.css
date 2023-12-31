@@ -1,7 +1,9 @@
 .App {
   text-align: center;
+}
+
+body {
   background-color: black;
-  padding: 15px;
 }
 
 .App-img {
