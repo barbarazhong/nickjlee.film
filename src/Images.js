@@ -4,16 +4,16 @@ import React from 'react';
 
 export const videos = [{
   id: 0,
-  name: '@nickjlee_',
+  name: 'About Me',
   summary: 'Hi! I\'m Nicolas Johannes Lee',
   link: 'https://www.instagram.com/nickjlee_/',
   imageId: 'njl_square_main.jpeg',
   squareImageId: 'njl_square.jpeg'
 },{
   id: 1,
-  name: '@blueboy_film',
+  name: 'blueboyfilm.com',
   summary: 'My upcoming short film.',
-  link: 'https://www.instagram.com/blueboy_film/',
+  link: 'https://www.blueboyfilm.com/',
   imageId: 'whereisblueboy_square_main.jpeg',
   squareImageId: 'whereisblueboy_square.jpeg'
 }, {
@@ -25,19 +25,12 @@ export const videos = [{
   squareImageId: 'vacation_square.jpeg'
 },{
   id: 3,
-  name: 'JAZZ & COOKING | in film',
-  summary: 'I love cooking. I love jazz.',
-  link: 'https://www.youtube.com/watch?v=Cutzq2vX5HM&t=1s',
-  imageId: 'in_film_cooking_and_jazz_square_main.jpeg',
-  squareImageId: 'in_film_cooking_and_jazz_square.jpeg'
-},{
-  id: 4,
-  name: 'Robert Eggers • OEUVRE',
-  summary: 'An homage to Rogger Eggers.',
-  link: 'https://www.youtube.com/watch?v=JgPJNBo-Llg&t=98s',
-  imageId: 'robert_eggers_square_main.jpeg',
-  squareImageId: 'robert_eggers_square.jpeg'
-},  
+  name: '@nickjlee_',
+  summary: 'My photography IG',
+  link: 'https://www.instagram.com/nickjlee_/',
+  imageId: 'film.jpeg',
+  squareImageId: 'film.jpeg'
+}
 ];
 
 const openInNewTab = (url) => {
@@ -48,7 +41,7 @@ function Image(props) {
   return (
     <div className='img_container'>  
       <picture>
-        <source media="(max-width:800px)" srcset={props.image_square}></source>
+        <source media="(max-width:1000px)" srcset={props.image_square}></source>
         <img className="image" key={props.index} src={props.image} alt={props.name}></img> 
       </picture>
       <div className='middle'> 

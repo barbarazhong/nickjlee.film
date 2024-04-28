@@ -16,7 +16,7 @@ body {
   /* position: relative;
   display: inline-block; */
   float: right;
-  top: 90%;
+  top: 95%;
   left: 50%;
   transform: translate(-75%, -75%);
   position: fixed;
