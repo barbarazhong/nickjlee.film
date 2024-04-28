@@ -1,30 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.414e55e6.css",
-    "main.js": "/static/js/main.0aedf6a8.js",
+    "main.css": "/static/css/main.48e2bb11.css",
+    "main.js": "/static/js/main.2e8ea130.js",
     "static/js/787.93e0dd2e.chunk.js": "/static/js/787.93e0dd2e.chunk.js",
     "static/media/vacation_square.jpeg": "/static/media/vacation_square.021064f83adf1ea93d88.jpeg",
     "static/media/njl.jpeg": "/static/media/njl.3f2cf92b7f4b81c5ed36.jpeg",
     "static/media/vacation.jpeg": "/static/media/vacation.140045a168a461949896.jpeg",
     "static/media/whereisblueboy.jpeg": "/static/media/whereisblueboy.82087c91182954772bad.jpeg",
     "static/media/whereisblueboy_square.jpeg": "/static/media/whereisblueboy_square.a64338049342f2df0a8d.jpeg",
-    "static/media/robert_eggers_square.jpeg": "/static/media/robert_eggers_square.9d528736cb2e83de3a44.jpeg",
     "static/media/njl_square.jpeg": "/static/media/njl_square.fd4cfeb83c5f9c3f5fe1.jpeg",
-    "static/media/robert_eggers.jpeg": "/static/media/robert_eggers.7db7c74a8e8bd8e74470.jpeg",
-    "static/media/in_film_cooking_and_jazz_square.jpeg": "/static/media/in_film_cooking_and_jazz_square.5d9b4785f927b62d00b6.jpeg",
-    "static/media/in_film_cooking_and_jazz.jpeg": "/static/media/in_film_cooking_and_jazz.ca19fbda13817d1fc292.jpeg",
+    "static/media/film.jpeg": "/static/media/film.7c52de763a54fd24c6e0.jpeg",
     "static/media/vacation_square_main.jpeg": "/static/media/vacation_square_main.2cdfb52dad5f23c546a7.jpeg",
     "static/media/whereisblueboy_square_main.jpeg": "/static/media/whereisblueboy_square_main.4b3d501fcd7220c195b9.jpeg",
-    "static/media/robert_eggers_square_main.jpeg": "/static/media/robert_eggers_square_main.1bd518bbe01ab323844f.jpeg",
-    "static/media/in_film_cooking_and_jazz_square_main.jpeg": "/static/media/in_film_cooking_and_jazz_square_main.3811cc34aba255c15c07.jpeg",
     "static/media/njl_square_main.jpeg": "/static/media/njl_square_main.55852685c327b0f97773.jpeg",
     "index.html": "/index.html",
-    "main.414e55e6.css.map": "/static/css/main.414e55e6.css.map",
-    "main.0aedf6a8.js.map": "/static/js/main.0aedf6a8.js.map",
+    "main.48e2bb11.css.map": "/static/css/main.48e2bb11.css.map",
+    "main.2e8ea130.js.map": "/static/js/main.2e8ea130.js.map",
     "787.93e0dd2e.chunk.js.map": "/static/js/787.93e0dd2e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.414e55e6.css",
-    "static/js/main.0aedf6a8.js"
+    "static/css/main.48e2bb11.css",
+    "static/js/main.2e8ea130.js"
   ]
 }
