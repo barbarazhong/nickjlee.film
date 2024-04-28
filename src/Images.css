@@ -17,6 +17,22 @@
   width: 50%;
 }
 
+@media (max-width: 1000px) {
+  .img_container {
+    position: relative;
+    float: left;
+    width: 100%;
+  }
+  .full_images {
+    display: block;
+    position: fixed;
+    max-height: none;
+    
+    padding: 15px;
+    outline: 3px solid #266856;
+  }
+}
+
 .image {
   opacity: 1;
   display: block;

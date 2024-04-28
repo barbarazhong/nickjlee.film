@@ -11,6 +11,11 @@ body {
   width: 75%;
 }
 
+@media (max-width: 1000px) {
+  .socials {
+    visibility: hidden;
+  }
+}
 
 .socials {
   /* position: relative;
