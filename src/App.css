@@ -11,12 +11,6 @@ body {
   width: 75%;
 }
 
-@media (max-width: 1000px) {
-  .socials {
-    visibility: hidden;
-  }
-}
-
 .socials {
   /* position: relative;
   display: inline-block; */
@@ -26,6 +20,18 @@ body {
   transform: translate(-75%, -75%);
   position: fixed;
 }
+
+@media (max-width: 1000px) {
+  .socials {
+    float: none;
+    top: none;
+    left: 50%;
+    transform: none;
+    position: relative;
+    margin-bottom: 10px;
+  }
+}
+
 
 .fa {
   padding: 3px;
