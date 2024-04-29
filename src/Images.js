@@ -5,7 +5,7 @@ import React from 'react';
 export const videos = [{
   id: 0,
   name: 'About Me',
-  summary: 'Hi! I\'m Nicolas Johannes Lee',
+  summary: 'Hi! I\'m Nicolas Johannes Lee.',
   link: 'https://www.instagram.com/nickjlee_/',
   imageId: 'njl_square_main.jpeg',
   squareImageId: 'njl_square.jpeg'
@@ -18,15 +18,15 @@ export const videos = [{
   squareImageId: 'whereisblueboy_square.jpeg'
 }, {
   id: 2,
-  name: 'Vacation (Aftersun)',
-  summary: 'A beautiful, tender look at a father and daughter on vacation.',
-  link: 'https://www.youtube.com/watch?v=mZGEVzyAyNs&t=14s',
+  name: '@NicolasJohannesLee',
+  summary: 'My YouTube Channel.',
+  link: 'https://www.youtube.com/@NicolasJohannesLee',
   imageId: 'vacation_square_main.jpeg',
   squareImageId: 'vacation_square.jpeg'
 },{
   id: 3,
   name: '@nickjlee_',
-  summary: 'My photography IG',
+  summary: 'My photography IG.',
   link: 'https://www.instagram.com/nickjlee_/',
   imageId: 'film.jpeg',
   squareImageId: 'film.jpeg'
@@ -41,7 +41,7 @@ function Image(props) {
   return (
     <div className='img_container'>  
       <picture>
-        <source media="(max-width:1000px)" srcset={props.image_square}></source>
+        <source media="(max-width:1000px)" srcSet={props.image_square}></source>
         <img className="image" key={props.index} src={props.image} alt={props.name}></img> 
       </picture>
       <div className='middle'> 
